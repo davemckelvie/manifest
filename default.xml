@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="dave-nxp-proprietary"
+    fetch="git:/github.com/davemckelvie/" />
+  
   <remote name="github"
     fetch="git://github.com/technexion-android/" />
 
@@ -52,7 +55,7 @@
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="github" revision="refs/tags/tn-p9.0.0_2.2.0-ga_tn2.0" />
   <project path="external/hcitools" name="platform_external_hcitools" remote="github" revision="refs/tags/tn-p9.0.0_2.2.0-ga_tn2.0" />
 
-  <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="imx-proprietary" revision="f6d0859f9435796f03ae93b70b5f92f4406bc56d" />
+  <project path="vendor/nxp/imx-firmware" name="imx-firmware" remote="dave-nxp-proprietary" revision="f6d0859f9435796f03ae93b70b5f92f4406bc56d" />
 
   <!-- For imx public git. -->
   <project path="vendor/nxp-opensource/arm-trusted-firmware" name="imx-atf" remote="imx-linux-sdk" revision="refs/tags/p9.0.0_2.2.0-ga" />
