@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="dave-nxp-proprietary"
-    fetch="git:/github.com/davemckelvie/" />
+    fetch="https:/github.com/davemckelvie/" />
   
   <remote name="github"
     fetch="git://github.com/technexion-android/" />
